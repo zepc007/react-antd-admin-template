@@ -21,6 +21,17 @@ const addCustomize = () => (config) => {
   }
   return config;
 };
+const addProxy = () => (configFunction) => {
+  configFunction.proxy = {
+    '/api/': {
+      target: 'https://www.v2ex.com',
+      changeOrigin: true,
+      pathRewrite: { '^/api': '' },
+    },
+  };
+
+  return configFunction;
+}
 module.exports = override(
   // 针对antd实现按需打包: 根据import来打包(使用babel-plugin-import)
   fixBabelImports("import", {
@@ -39,5 +50,6 @@ module.exports = override(
   addWebpackAlias({
     "@": resolve("src"),
   }),
-  addCustomize()
+  addCustomize(),
+  addProxy(),
 );

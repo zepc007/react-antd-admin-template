@@ -1,10 +1,4 @@
 
-<p align="center">
-   <a href="https://nlrx-wjc.github.io/react-antd-admin-template/" target="_blank">
-      <img src="./logo.png"/>
-   </a>
-</p>
-
 # 简介
 
 [react-antd-admin-template](https://nlrx-wjc.github.io/react-antd-admin-template/) 是一个基于 `React` 和 `Ant Design` 的后台管理系统模板。它内置了用户登录/登出，动态路由，权限校验，用户管理等典型的业务模型，可以帮助你快速搭建企业级中后台产品原型，是你接私活的不二之选。
@@ -109,7 +103,6 @@ npm start
 
 启动完成后会自动打开浏览器访问 [http://localhost:3000](http://localhost:3000)， 你看到下面的页面就代表操作成功了。
 
-![](./guide.gif)
 
 接下来你可以修改代码进行业务开发了。
 
@@ -131,11 +124,8 @@ npm start
 
 下边是我的微信，欢迎同好伙伴一起树(tree)新(new)风(bee)！！！
 
-![](./wechat.jpg)
-
 # 鼓励作者
 
 作为个人开发者，维护开源实属不易。如果您觉得本项目对你有些许帮助的话，还请帮忙点个 star 哈~~
 如果您有余力的话也非常感谢您对我的赞赏，您的赞赏，是对我创作最大的认可和鼓励。
 
-![](./pay.png)
